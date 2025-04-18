@@ -17,3 +17,6 @@ generateIndex() {
 
 # generate index.html for personas
 generateIndex personas
+
+
+sed -i "s#<!-- URL -->#$url#g" index.html
